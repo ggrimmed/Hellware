@@ -1,7 +1,9 @@
 if game.PlaceId == 2788229376 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/Da%20Hood"))()
-end
-
-if game.PlaceId == 417267366 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/Dollhouse"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/Da%20Hood"))()
+elseif game.PlaceId == 417267366 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/Dollhouse"))()
+elseif game.PlaceId == 6284583030 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/Pet%20Simulator%20X%20Obfuscated"))()
+elseif game.PlaceId then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Hellware/main/No%20ID%20Hub"))()
 end
